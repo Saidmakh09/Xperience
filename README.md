@@ -1,4 +1,4 @@
-XPerience Event Management System
+**XPerience Event Management System**
 A client-server application for managing events with secure password authentication.
 Overview
 XPerience is a Java-based event management system that allows clients to register events through a client-server architecture. The system implements a robust validation mechanism for event data and uses a one-time password authentication system for security.
@@ -16,7 +16,7 @@ Database storage (EventStoreDB) using DonaBase MySQL connection
 Concurrent Client Handling: Multi-threaded server implementation with virtual threads
 Logging: Detailed system logging for debugging and monitoring
 
-Components
+**Components**
 
 Event: Represents an event with name, date, time, and description
 EventStore: Interface defining the event storage contract
@@ -30,5 +30,5 @@ ClientHandler: Processes client requests, authenticates, and validates event dat
 XPerienceServer: Single-threaded server implementation with in-memory storage
 XPerienceServerDB: Multi-threaded server with database storage
 
-Protocol
+**Protocol**
 The XPerience communication protocol uses a simple text-based format with fields separated by # characters:
